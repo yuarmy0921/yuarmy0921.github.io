@@ -1,3 +1,4 @@
 body {
-    background-image: url('./resources/image/background.jpeg');
+    background-image: url('./resources/image/background.jpg');
+    opacity: 0.5; 
 }
