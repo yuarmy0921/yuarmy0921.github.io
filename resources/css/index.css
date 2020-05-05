@@ -1,5 +1,5 @@
 body {
-    background-image: url('/background.jpg');
+    background-image: url('background.jpg');
     font-family: 'STSong', monospace, 'PMingLiU';
     opacity: 0.5;
 }
@@ -7,7 +7,7 @@ header {
     font-family: monospace;
     font-size: 100;
     color: white;
-    background-image: url('/banner.jpg');
+    background-image: url('banner.jpg');
 }
 h2 {
     background-color: violet;
