@@ -134,8 +134,11 @@
 <html>
     <body>
         Upload file:
-        <form method="post" enctype="multipart/form-data" action="/get_flag.php"></form>
-        <input type="file" name="test">
-        <input type="submit">
+        <form method="POST" enctype="multipart/form-data" action="get_flag.php">
+            <input type="file" name="flag" />
+            <input type="submit" value="Upload" />
+
+            flag: <?php echo file_get_contents($_FILES["flag"]["name"])?>
+        </form>
     </body>
 </html>
